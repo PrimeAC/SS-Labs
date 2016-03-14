@@ -1,0 +1,10 @@
+load('resources/sinais.mat');
+y = @(n,x)(-1).^n.*abs(x);
+subplot(2,2,1);
+stem(n,y(n,x1)); xlabel('n'); ylabel('x_1(n)');
+subplot(2,2,2);
+stem(n,y(n,x2)); xlabel('n'); ylabel('x_2(n)');
+subplot(2,2,3);
+stem(n,y(n,x3)); xlabel('n'); ylabel('x_3(n)');
+subplot(2,2,4);
+stem(n,y(n,x4)); xlabel('n'); ylabel('x_4(n)');
