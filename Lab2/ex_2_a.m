@@ -1,0 +1,10 @@
+n = [0:50];
+b = 1;
+a = -0.9;
+h1 = b*[0 (-a).^[n(1):n(length(n)-1)]];
+subplot(2,1,1);
+stem(n,h1); xlabel('n'); ylabel('h_1(n)'); title('a=-0.9');
+a = -1.1;
+h2 = b*[0 (-a).^[n(1):n(length(n)-1)]];
+subplot(2,1,2);
+stem(n,h2); xlabel('n'); ylabel('h_2(n)'); title('a=-1.1');
