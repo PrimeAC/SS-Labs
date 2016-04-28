@@ -2,12 +2,12 @@ addpath('resources');
 n = 0:50;
 r=(-1).^n.*ones(1,length(n));
 
-y1 = equacao_diferencas(r, -1.1, -0.1, 0);
-y2 = equacao_diferencas(r, -1.1, 0.1, 0);
-y3 = equacao_diferencas(r, -1.1, 0.2, 0);
-y4 = equacao_diferencas(r, -1.1, 2, 0);
-y5 = equacao_diferencas(r, -1.1, 2.1, 0);
-y6 = equacao_diferencas(r, -1.1, 2.2, 0);
+y1 = equacao_diferencas(r, -1.1 - 0.1, 1, 0);
+y2 = equacao_diferencas(r, -1.1 + 0.1, 1, 0);
+y3 = equacao_diferencas(r, -1.1 + 0.2, 1, 0);
+y4 = equacao_diferencas(r, -1.1 + 2, 1, 0);
+y5 = equacao_diferencas(r, -1.1 + 2.1, 1, 0);
+y6 = equacao_diferencas(r, -1.1 + 2.2 , 1, 0);
 
 
 subplot(3,2,1);
