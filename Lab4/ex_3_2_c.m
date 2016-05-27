@@ -1,5 +1,5 @@
 addpath('resources');
-[Xp21,w] = espectro_sinal_amostrado(0.3,10,30,pi);
+[Xp21,w] = espectro_sinal_amostrado(0.5,10,30,pi);
 [Xp22,w] = espectro_sinal_amostrado(0.5,10,30,3*pi);
 RXp21 = real(Xp21);
 RXp22 = real(Xp22);
